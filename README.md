@@ -14,7 +14,7 @@
 
 ![GutHubSearch](https://user-images.githubusercontent.com/91532881/177000415-787de44c-f2b9-4ad9-b1cf-f4c7156c213d.jpg)
 
-<h3 align="center"><a href="https://aakash-limbani-github-search.vercel.com/"><strong>Want to see live preview »</strong></a></h3>
+<h3 align="center"><a href="https://aakash-limbani-github-search.vercel.app/"><strong>Want to see live preview »</strong></a></h3>
 
 <p align="center"> 
     <br />&#10023;
