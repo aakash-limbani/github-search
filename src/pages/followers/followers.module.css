@@ -1,0 +1,60 @@
+.main {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.textBox {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.gridItem {
+    display: grid;
+    grid-template-columns: 23% 67%;
+    gap: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+.img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.followerText h4 {
+    margin: 5px;
+    color: #1a78f4;
+}
+
+.followerText p {
+    margin: 5px;
+    color: gray;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

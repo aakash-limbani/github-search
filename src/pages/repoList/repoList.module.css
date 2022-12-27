@@ -1,0 +1,75 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.gridItem {
+    height: 90px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 20% 77%;
+    gap: 3%;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.imgBox {
+    overflow: hidden;
+}
+
+.imgBox>img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.textBox>h4 {
+    margin: 5px;
+    color: #1a78f4;
+}
+
+.textBox>p {
+    margin: 5px;
+    font-size: 13px;
+    color: gray;
+}
+
+.userBox {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: #E0E0E0;
+    transition: all 0.2s linear;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #BDBDBD;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
